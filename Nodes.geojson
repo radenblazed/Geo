@@ -1,12 +1,12 @@
 {
 "type": "FeatureCollection",
-"name": "Nodes",
+"name": "Node",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "fid": 1, "title": "Jeova", "description": Best Node }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -0.154687687947843, -0.015812736300476 ] ] } },
-{ "type": "Feature", "properties": { "fid": 2, "title": "New Aela", "description": Yellow }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -0.178634450032804, -0.212622017166894 ] ] } },
-{ "type": "Feature", "properties": { "fid": 3, "title": "Halcyon", "description": null }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -0.036069676473231, 0.111302443129364 ] ] } },
-{ "type": "Feature", "properties": { "fid": 4, "title": "Winstead", "description": null }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 0.111473277017982, 0.066928031969735 ] ] } },
-{ "type": "Feature", "properties": { "fid": 5, "title": "Miraleth", "description": null }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 0.221379473612222, -0.061732142892507 ] ] } }
+{ "type": "Feature", "properties": { "title": "New Aela", "descriptio": "null" }, "geometry": { "type": "Point", "coordinates": [ -0.179020688130949, -0.212064121523189 ] } },
+{ "type": "Feature", "properties": { "title": "Jeova", "descriptio": null }, "geometry": { "type": "Point", "coordinates": [ -0.154988095357511, -0.014310699304078 ] } },
+{ "type": "Feature", "properties": { "title": "Halcyon", "descriptio": "good node" }, "geometry": { "type": "Point", "coordinates": [ -0.033451840474696, 0.111345358392597 ] } },
+{ "type": "Feature", "properties": { "title": "Winstead", "descriptio": null }, "geometry": { "type": "Point", "coordinates": [ 0.112803652689369, 0.068086745459875 ] } },
+{ "type": "Feature", "properties": { "title": "Miraleth", "descriptio": "good node" }, "geometry": { "type": "Point", "coordinates": [ 0.222666933939371, -0.058942647064057 ] } }
 ]
 }
